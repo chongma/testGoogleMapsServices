@@ -7,7 +7,6 @@ import com.google.maps.model.GeocodingResult;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-
 /**
  * Hello world!
  *
@@ -18,7 +17,7 @@ public class App {
 
 	public static void main(String[] args) {
 		LOG = LoggerFactory.getLogger(App.class);
-    	LOG.info("Hello World");
+		LOG.info("Hello World");
 		App app = new App();
 		app.updateLatLng("London");
 	}
